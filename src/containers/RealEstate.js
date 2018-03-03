@@ -4,8 +4,10 @@ import React from 'react'
 
 const RealEstate = () => (
   <div className="realestate">
-    <h1>This is what we're all about.</h1>
-    <p>React, static sites, performance, speed. It's the stuff that makes us tick.</p>
+    <div className="re-video">
+      <iframe data="https://www.youtube.com/watch?v=kNZWd_cow_Y" width="560" height="315"/>
+      
+    </div>
   </div>
 )
 export default RealEstate
