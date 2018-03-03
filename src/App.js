@@ -8,7 +8,7 @@ import './app.css'
 
 const App = () => (
   <Router>
-    <div>
+    <div className="home">
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>

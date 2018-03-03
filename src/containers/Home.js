@@ -1,11 +1,12 @@
 import React from 'react'
 import { withSiteData } from 'react-static'
+import Video from './Video'
 //
-import logoImg from '../logo.png'
+import PLlogo from '../PLlogo.png'
 
 export default withSiteData(() => (
-  <div>
-    <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
-    <img src={logoImg} alt="" />
+  <div className="homepage">
+    <img src={PLlogo} alt="" id="logo" />
+    <Video />
   </div>
 ))
