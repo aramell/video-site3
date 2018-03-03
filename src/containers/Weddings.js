@@ -4,8 +4,8 @@ import { withRouteData, Link } from 'react-static'
 
 
 const Weddings = () => (
-  <div>
-   test
+  <div className="weddings">
+   
   </div>
 )
 export default Weddings
