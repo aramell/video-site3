@@ -26,6 +26,62 @@ body {
   z-index: -10;
   
 }
+.about{
+  position: fixed;
+  background: grey;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -10;
+}
+
+.contact{
+  position: fixed;
+  background: grey;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -10;
+}
+.weddings{
+  position: fixed;
+  background: grey;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -10;
+}
+.realestate{
+  position: fixed;
+  background: grey;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -10;
+}
+.promotional{
+  position: fixed;
+  background: grey;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -10;
+}
 
 a {
   text-decoration: none;

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Router, Link } from 'react-static'
 import { hot } from 'react-hot-loader'
+import PLlogo from './PLlogo.png'
 //
 import Routes from 'react-static-routes'
 
@@ -9,6 +10,7 @@ import './app.css'
 const App = () => (
   <Router>
     <div className="home">
+    <img src={PLlogo} alt="" id="logo" />
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
