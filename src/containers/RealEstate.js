@@ -13,10 +13,12 @@ class RealEstate extends React.Component {
     
   return(
     <div className="realestate">
+      <div className="video">
     <YouTube 
       videoId="pV7nmwQwJPo"
       opts={opts} 
     />
+    </div>
       </div>
     )
   }

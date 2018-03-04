@@ -1,11 +1,27 @@
 
 import React from 'react'
-//
+import YouTube from 'react-youtube'
 
-const Promotional = () => (
+
+class Promotional extends React.Component {
+  render(){
+    const opts = {
+      height: '390',
+      width: '640',
+
+    }
+   
+  
+return(
   <div className="promotional">
-    <h1>This is what we're all about.</h1>
-    <p>React, static sites, performance, speed. It's the stuff that makes us tick.</p>
+    <div className="video">
+  <YouTube 
+    videoId="pV7nmwQwJPo"
+    opts={opts} 
+  />
   </div>
-)
+    </div>
+  )
+}
+}
 export default Promotional
