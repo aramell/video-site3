@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+  font-family: 'Futura', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
     'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -15,8 +15,16 @@ body {
   z-index: -100;
   padding: .5rem;
 }
+.wrapper{
+  display: grid;
+  grid-gap:5px;
+  grid-template-areas:
+    "nav"
+    "body"
+    "footer"
+}
 #video-background{
-  position: fixed;
+  position: absolute;
   right: 0; 
   bottom: 0;
   min-width: 100%; 
@@ -28,6 +36,7 @@ body {
 }
 .about{
   position: fixed;
+  font-family: futura;
   background: grey;
   right: 0; 
   bottom: 0;
@@ -37,9 +46,20 @@ body {
   height: auto;
   z-index: -10;
 }
+.footer{
+  bottom: 0;
+  font-family: futura;
+  text-align: center;
+  text-decoration: none;
+}
+.button{
+  position: relative;
+
+}
 
 .contact{
   position: fixed;
+  font-family: futura;
   background: grey;
   right: 0; 
   bottom: 0;
@@ -50,6 +70,7 @@ body {
   z-index: -10;
 }
 .weddings{
+  font-family: futura;
   position: fixed;
   background: grey;
   right: 0; 
@@ -60,15 +81,11 @@ body {
   height: auto;
   z-index: -10;
 }
-.video{
-  text-align: center;
-  padding-top: 400px;
-  display: block;
 
-}
 .greg{
   background: rgba(0,0,0,0.3);
   border: 2px solid blue;
+  font-family: futura;
   height: 50%;
   width: 50%;
   float:right;
@@ -82,6 +99,7 @@ body {
 }
 .realestate{
   position: fixed;
+  font-family: futura;
   background: grey;
   right: 0; 
   bottom: 0;
@@ -93,6 +111,7 @@ body {
 }
 .promotional{
   position: fixed;
+  font-family: futura;
   background: grey;
   right: 0; 
   bottom: 0;
@@ -117,6 +136,8 @@ a {
 }
 
 nav {
+  grid-area: nav;
+  font-family: futura;
 float: right;
   width: 40%;
   text-align: center;
@@ -128,7 +149,9 @@ nav a {
   color:black;
   padding: 1rem;
   display: inline-block;
-}
+  transition: .5s ease-in-out;
+
+} 
 nav a:hover {
   color:grey;
   padding: 1rem;
@@ -136,6 +159,7 @@ nav a:hover {
 }
 
 .content {
+  font-family: futura;
   width: 100%;
   height: 100%;
   z-index: -10;

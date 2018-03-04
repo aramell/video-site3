@@ -9,8 +9,9 @@ import './app.css'
 
 const App = () => (
   <Router>
-    <div className="home">
+    <div className="wrapper">
     <img src={PLlogo} alt="" id="logo" />
+
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
