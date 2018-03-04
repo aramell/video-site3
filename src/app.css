@@ -66,6 +66,13 @@ body {
   display: block;
 
 }
+.greg{
+  background: rgba(0,0,0,0.3);
+  border: 2px solid blue;
+  height: 50%;
+  width: 50%;
+  float:right;
+}
 .message{
   position: fixed;
   top: 400px;

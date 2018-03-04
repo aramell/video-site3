@@ -1,12 +1,13 @@
 
 import React from 'react'
-// import { withRouteData, Link } from 'react-static'
-//
+
 
 const About = () => (
   <div className="about">
+    <div className="greg">
+    greg's info here
 
-  
+    </div>
   </div>
 )
 

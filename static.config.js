@@ -1,6 +1,6 @@
 
 export default {
-  siteRoot: 'https://s3.amazonaws.com/phantomland-media/',
+  siteRoot: 'http://phantomland-media.s3-website-us-east-1.amazonaws.com/',
   getSiteData: () => ({
     title: 'Phantomland Media',
   }),
