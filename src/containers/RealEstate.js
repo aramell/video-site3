@@ -1,13 +1,24 @@
 
 import React from 'react'
-//
+import YouTube from 'react-youtube'
 
-const RealEstate = () => (
-  <div className="realestate">
-    <div className="re-video">
-      <iframe data="https://www.youtube.com/watch?v=kNZWd_cow_Y" width="560" height="315"/>
-      
-    </div>
-  </div>
-)
+class RealEstate extends React.Component {
+    render(){
+      const opts = {
+        height: '390',
+        width: '640',
+
+      }
+     
+    
+  return(
+    <div className="realestate">
+    <YouTube 
+      videoId="pV7nmwQwJPo"
+      opts={opts} 
+    />
+      </div>
+    )
+  }
+}
 export default RealEstate

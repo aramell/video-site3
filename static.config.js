@@ -1,8 +1,8 @@
-import axios from 'axios'
 
 export default {
+  siteRoot: 'https://s3.amazonaws.com/phantomland-media/',
   getSiteData: () => ({
-    title: 'React Static',
+    title: 'Phantomland Media',
   }),
   getRoutes: async () => {
     return [
