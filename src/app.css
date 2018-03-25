@@ -7,14 +7,14 @@ body {
   margin: 0;
   padding: 0;
 }
-.home{
+/* .home{
   top:0;
   left:0;
   height: 100%;
   width: 100%;
   z-index: -100;
   padding: .5rem;
-}
+} */
 #video-background{
   position: fixed;
   right: 0; 

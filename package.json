@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
+    "react-social-icons": "^2.8.1",
     "serve": "^6.1.0"
   }
 }
