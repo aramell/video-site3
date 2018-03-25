@@ -16,7 +16,7 @@ class RealEstate extends React.Component {
       <div className="video">
       <h1>Real Estate</h1>
     <YouTube 
-      videoId="pV7nmwQwJPo"
+      videoId="kNZWd_cow_Y&t=2s"
       opts={opts} 
     />
     </div>

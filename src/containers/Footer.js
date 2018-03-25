@@ -9,8 +9,7 @@ const Footer = () => {
      <ul>
         <li>Facebook</li>
         <li><SocialIcon url="https://www.facebook.com/PhantomLand-Media-418287681891035" /></li>
-        <li>Instagram</li>
-        <li>Youtube</li>    
+        <li><SocialIcon url="https://www.youtube.com/channel/UCea2VORP4TMnpVCVrBg4p-Q" /></li>    
       </ul>    
    </div>
   )

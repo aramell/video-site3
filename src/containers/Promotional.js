@@ -14,7 +14,7 @@ class Promotional extends React.Component {
   
 return(
   <div className="promotional">
-    <div className="video">
+    <div className="video col-12">
     <h1>Promotional</h1>
   <YouTube 
     videoId="pV7nmwQwJPo"

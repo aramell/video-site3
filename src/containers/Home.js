@@ -7,6 +7,8 @@ import Footer from './Footer'
 export default withSiteData(() => (
   <div className="homepage">
     <Video />
-    <Footer />
+    <div className="col-12">
+      <Footer />
+    </div>
   </div>
 ))
