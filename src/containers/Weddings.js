@@ -7,7 +7,10 @@ class Weddings extends React.Component {
       const opts = {
         height: '390',
         width: '640',
-
+        playerVars: {
+          autoplay: 1
+          
+        }
       }
      
     
@@ -17,10 +20,14 @@ class Weddings extends React.Component {
     <YouTube 
       videoId="pV7nmwQwJPo"
       opts={opts} 
+      onReady={this._onReady}
     />
     </div>
       </div>
     )
+  }
+  _onReady(e){
+    e.target.mute()
   }
 }
 export default Weddings

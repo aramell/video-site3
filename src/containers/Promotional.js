@@ -8,6 +8,10 @@ class Promotional extends React.Component {
     const opts = {
       height: '390',
       width: '640',
+      playerVars: {
+        autoplay: 1
+        
+      }
 
     }
    
@@ -18,10 +22,14 @@ return(
   <YouTube 
     videoId="hvjgFAY8Vf0"
     opts={opts} 
+    onReady={this._onReady}
   />
   </div>
     </div>
   )
-}
+  }
+  _onReady(e){
+    e.target.mute()
+  }
 }
 export default Promotional

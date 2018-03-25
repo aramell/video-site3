@@ -7,6 +7,10 @@ class RealEstate extends React.Component {
       const opts = {
         height: '390',
         width: '640',
+        playerVars: {
+          autoplay: 1
+          
+        }
 
       }
      
@@ -16,11 +20,15 @@ class RealEstate extends React.Component {
       <div className="video">
     <YouTube 
       videoId="kNZWd_cow_Y"
-      opts={opts} 
+      opts={opts}
+      onReady={this._onReady} 
     />
     </div>
       </div>
     )
+  }
+  _onReady(e){
+    e.target.mute()
   }
 }
 export default RealEstate
