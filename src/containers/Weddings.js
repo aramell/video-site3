@@ -13,13 +13,13 @@ class Weddings extends React.Component {
     
   return(
     <div className="weddings">
-    <div className="video">
-    <h1>Weddings </h1>
-    <YouTube 
-      videoId="pV7nmwQwJPo"
-      opts={opts} 
-    />
-    </div>
+       <div className="video">
+       <h1>Weddings </h1>
+       <YouTube 
+         videoId="pV7nmwQwJPo"
+         opts={opts} 
+       />
+       </div>
       </div>
     )
   }

@@ -81,8 +81,12 @@ body {
   height: auto;
   z-index: -10;
 }
+.video{
+  grid-area: body;
+}
 
 .greg{
+  grid-area: body;
   background: rgba(0,0,0,0.3);
   border: 2px solid blue;
   font-family: futura;
@@ -138,7 +142,7 @@ a {
 nav {
   grid-area: nav;
   font-family: futura;
-float: right;
+  float: right;
   width: 40%;
   text-align: center;
   background: rgba(0,0,0,0.2);

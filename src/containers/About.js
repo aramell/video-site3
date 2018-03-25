@@ -1,6 +1,6 @@
 
 import React from 'react'
-
+import '../simple-grid.css'
 
 const About = () => (
   <div className="about">

@@ -13,6 +13,7 @@ const App = () => (
     <div className="wrapper">
     <img src={PLlogo} alt="" id="logo" />
 
+    <div className="nav">
       <nav >
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
@@ -21,6 +22,7 @@ const App = () => (
         <Link to="/promotional">Promotional</Link>
         <Link to="/contact">Contact</Link>
       </nav>
+    </div>
       <div className="content">
         <Routes />
       </div>
