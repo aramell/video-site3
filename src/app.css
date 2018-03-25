@@ -15,16 +15,27 @@ body {
   z-index: -100;
   padding: .5rem;
 } */
+.homepage{
+  position: relative;
+}
 #video-background{
   position: fixed;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-  z-index: -10;
+  left: 0; 
+  top: 0;
+  /* min-width: 100%;  */
+  /* min-height: 100%; */
+  height:auto;
+  width: 100%;
   
+  z-index: -10;
+  /* padding-bottom: %; */
+  
+  
+}
+
+.main-page{
+  position: relative;
+  clear: bottom;
 }
 .about{
   position: fixed;
@@ -104,10 +115,25 @@ a {
 
 #logo{
   width: 500px;
+  height: auto;
   top: 0;
   left: 0;
   z-index: 10;
 }
+/* video css */
+.video{
+  position: relative;
+    overflow: hidden;
+    /* padding-top: 56.25%; */
+}
+/* iframe{
+  position: absolute;
+   
+    width: 100%;
+    height: auto;
+  
+} */
+
 
 nav {
 float: right;

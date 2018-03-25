@@ -2,7 +2,7 @@ import React from 'react'
 import { Router, Link } from 'react-static'
 import { hot } from 'react-hot-loader'
 import PLlogo from './PLlogo.png'
-//
+import Home from './containers/Home'
 import { SocialIcons } from 'react-social-icons';
 import Routes from 'react-static-routes'
 
