@@ -1,6 +1,7 @@
 
 import React from 'react'
 import YouTube from 'react-youtube'
+import Footer from './Footer';
 
 
 class Promotional extends React.Component {
@@ -19,13 +20,14 @@ class Promotional extends React.Component {
 return(
   <div className="promotional">
     <div className="video">
-  <YouTube 
-    videoId="hvjgFAY8Vf0"
-    opts={opts} 
-    onReady={this._onReady}
-  />
-  </div>
+      <YouTube 
+        videoId="hvjgFAY8Vf0"
+        opts={opts} 
+        onReady={this._onReady}
+      />
+      </div>
     </div>
+    
   )
   }
   _onReady(e){

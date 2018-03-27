@@ -16,9 +16,7 @@ const MainPage = () => (
         <Video />
       </div>
     </div>
-    <div className="footer">
-      This is the footer!
-    </div>
+   
   </div>
 )
 

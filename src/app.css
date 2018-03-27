@@ -60,7 +60,8 @@ h3{
 .footer{
   border-top: 3px blue solid;
   border-radius: 5px;
-  background: lightblue
+  background: lightblue;
+  text-align: center;
 }
 .content{
   /* top: 0; */
