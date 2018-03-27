@@ -7,6 +7,8 @@ body {
   margin: 0;
   padding: 0;
 }
+.wrapper{
+}
 /* .home{
   top:0;
   left:0;
@@ -57,11 +59,22 @@ h3{
   
   
 }
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
 .footer{
   border-top: 3px blue solid;
+  postion: relative;
   border-radius: 5px;
   background: lightblue;
   text-align: center;
+  bottom: 10%;
 }
 .content{
   /* top: 0; */
@@ -115,7 +128,7 @@ h3{
   z-index: -10;
 }
 .weddings{
-  position: fixed;
+  position: relative;
   background: grey;
   right: 0; 
   bottom: 0;
@@ -216,4 +229,3 @@ nav a:hover {
   padding: 1rem;
   display: inline-block;
 }
-

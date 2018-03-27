@@ -10,8 +10,8 @@ const MainPage = () => (
     </h3>
     <div className="sub-main">
       <div className="meet-team">
-        <button >About Us </button>
-      </div>
+          <a href="/about" class="btn"> Meet Us </a>
+        </div>
       <div className="example-video" >
         <Video />
       </div>

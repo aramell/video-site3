@@ -1,8 +1,10 @@
 
 import React from 'react'
 import YouTube from 'react-youtube'
-
+import Footer from './Footer';
 class Weddings extends React.Component {
+
+
     render(){
       const opts = {
         height: '390',
@@ -23,7 +25,10 @@ class Weddings extends React.Component {
       onReady={this._onReady}
     />
     </div>
+    <Footer />
+
       </div>
+      
     )
   }
   _onReady(e){
