@@ -129,9 +129,7 @@ h3{
 }
 .weddings{
   display: grid;
-  
   grid-auto-columns: 2fr;
-
   position: relative;
   background: grey;
   right: 0; 
@@ -142,7 +140,7 @@ h3{
   height: auto;
   z-index: -10;
 }
-.weddings > #wedding-video{
+.weddings > #service-video1{
   grid-column: 2;
   top: 0;
 }
@@ -159,7 +157,7 @@ h3{
   background: rgba(0,0,0,0.3)
 }
 .realestate{
-  position: fixed;
+  position: relative;
   background: grey;
   right: 0; 
   bottom: 0;
@@ -170,7 +168,10 @@ h3{
   z-index: -10;
 }
 .promotional{
-  position: fixed;
+  display: grid;
+  grid-auto-columns: 2fr;
+  position: relative;
+
   background: grey;
   right: 0; 
   bottom: 0;
@@ -179,6 +180,9 @@ h3{
   width: auto; 
   height: auto;
   z-index: -10;
+}
+.promotional > #service-video2{
+  /* grid-column: 1; */
 }
 
 a {

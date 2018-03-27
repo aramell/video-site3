@@ -19,7 +19,10 @@ class Weddings extends React.Component {
   return(
     <div className="service-wrapper">
     <div className="weddings">
-        <div className="video" id="wedding-video">
+    <div>
+      test div
+      </div>
+        <div className="video" id="service-video1">
         <YouTube 
           videoId="pV7nmwQwJPo"
           opts={opts} 
@@ -27,7 +30,7 @@ class Weddings extends React.Component {
         />
         </div>
         </div>
-    <Footer />
+      <Footer />
 
       </div>
       

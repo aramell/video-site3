@@ -18,14 +18,17 @@ class Promotional extends React.Component {
    
   
 return(
-  <div className="promotional">
-    <div className="video">
-      <YouTube 
-        videoId="hvjgFAY8Vf0"
-        opts={opts} 
-        onReady={this._onReady}
-      />
+  <div className="service-wrapper" >
+    <div className="promotional">
+      <div className="video" id="service-video2">
+        <YouTube 
+          videoId="hvjgFAY8Vf0"
+          opts={opts} 
+         onReady={this._onReady}
+        />
       </div>
+    </div>
+    <Footer />
     </div>
     
   )
