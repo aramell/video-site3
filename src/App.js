@@ -30,6 +30,7 @@ const App = () => (
       </nav>
       <div className="content">
         <Routes />
+
       </div>
     </div>
   </Router>
