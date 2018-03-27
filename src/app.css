@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+  font-family: 'Futura', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
     'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -21,6 +21,21 @@ body {
     "video"
   
 } */
+.sub-main{
+  display:grid;
+  grid-auto-columns: 2fr;
+}
+.meet-team{
+  grid-column: 2;
+}
+.example-video{
+  grid-column: 1;
+}
+h3{
+  font-size: 1.4em;
+  font-family: 'Futura'
+
+}
 .homepage{
   height: 100%;
   min-width: 100%;
@@ -29,40 +44,48 @@ body {
 }
 
 #video-background{
-  grid-area: video;
   position: relative;
   left: 0; 
   top: 0;
   /* min-width: 100%;  */
   /* min-height: 100%; */
   height:auto;
-  width: 95%;
-  margin: auto;
+  width: 100%;
   
   z-index: -1;
   /* padding-bottom: 10%; */
   
   
 }
+.footer{
+  border-top: 3px blue solid;
+  border-radius: 5px;
+  background: lightblue
+}
 .content{
   /* top: 0; */
-  display: grid;
+  width: 100%;
+  /* display: grid;
   grid-template-areas: 
-    "body"
-    "footer";
+    "video"
+    "footer"; */
     z-index: -2;
+    /* grid-gap: 10px; */
+}
+.sub-main{
+  background: rgba(0,0,0,0.5);
+
 }
 
 .main-page{
   /* grid-area: footer; */
-  width: 80%;
-  border: 5px rgba(0,0,0,0.2) solid;
+  width: 100%;
+  /* border: 5px rgba(0,0,0,0.2) solid; */
   border-radius: 5px;
   position: relative;
   background: rgba(0,0,0,0.2);
   text-align: center;
-
-  /* top: 80%; */
+  border-top: 3px black solid;
   margin: auto;
   padding: 20px
   /* z-index: 3; */
