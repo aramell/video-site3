@@ -4,9 +4,9 @@ import React from 'react'
 
 
 const MainPage = () => (
-  <section className="main-page" >
+  <div className="main-page" >
     this is a test
-  </section>
+  </div>
 )
 
 export default MainPage

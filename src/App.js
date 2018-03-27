@@ -5,6 +5,7 @@ import PLlogo from './PLlogo.png'
 import Home from './containers/Home'
 import { SocialIcons } from 'react-social-icons';
 import Routes from 'react-static-routes'
+import Video from './containers/Video'
 
 import './app.css'
 
