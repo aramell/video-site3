@@ -17,14 +17,16 @@ class Weddings extends React.Component {
      
     
   return(
+    <div className="service-wrapper">
     <div className="weddings">
-    <div className="video">
-    <YouTube 
-      videoId="pV7nmwQwJPo"
-      opts={opts} 
-      onReady={this._onReady}
-    />
-    </div>
+        <div className="video" id="wedding-video">
+        <YouTube 
+          videoId="pV7nmwQwJPo"
+          opts={opts} 
+          onReady={this._onReady}
+        />
+        </div>
+        </div>
     <Footer />
 
       </div>
