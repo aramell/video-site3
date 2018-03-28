@@ -8,34 +8,57 @@ import Routes from 'react-static-routes'
 import Video from './containers/Video'
 import './theme/assets/css/main.css'
 
-import './app.css'
+// import './app.css'
 
 const urls = [
   'https://www.youtube.com/channel/UCea2VORP4TMnpVCVrBg4p-Q',
   'https://www.facebook.com/PhantomLand-Media-418287681891035/'
 ]
 
-const App = () => (
+class App extends React.Component {
+  constructor(props){
+    super(props)
+
+    this.state = {
+      showMenu: false
+    }
+
+  }
+  render = () => {
+    return (
   
   <Router>
-    <div className="wrapper">
-    <img src={PLlogo} alt="" id="logo" />
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/weddings">Weddings</Link>
-        <Link to="/realestate">Real Estate</Link>
-        <Link to="/promotional">Promotional</Link>
-        <Link to="/contact">Contact</Link>
-        <SocialIcons urls={urls} color="grey" />
+    <div id="page-wrapper">
+    {/* <img src={PLlogo} alt="" id="logo" /> */}
+    <header id="header" className="alt">
+     <nav id="nav">
+      <ul>
+								<li className="special">
+									<a href="#menu" className="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a><Link to="/">Home</Link></a></li>
+											<li><a><Link to="/about">About</Link></a></li> 
+											<li><a><Link to="/weddings">Weddings</Link></a></li>
+											<li><a><Link to="/promotional">Promotional</Link></a></li>
+											<li><a><Link to="/contact">Contact</Link></a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+        {/* <SocialIcons urls={urls} color="grey" /> */}
       </nav>
+    </header>
       <div className="content">
         <Routes />
 
       </div>
     </div>
   </Router>
-  
-)
+
+  )
+}
+
+}
 
 export default hot(module)(App)
