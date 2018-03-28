@@ -29,13 +29,14 @@ class App extends React.Component {
   
   <Router>
     <div id="page-wrapper">
-    {/* <img src={PLlogo} alt="" id="logo" /> */}
     <header id="header" className="alt">
+    <img src={PLlogo} alt="" id="logo" />
      <nav id="nav">
       <ul>
 								<li className="special">
 									<a href="#menu" className="menuToggle"><span>Menu</span></a>
 									<div id="menu">
+                  
 										<ul>
 											<li><a><Link to="/">Home</Link></a></li>
 											<li><a><Link to="/about">About</Link></a></li> 
@@ -46,7 +47,6 @@ class App extends React.Component {
 									</div>
 								</li>
 							</ul>
-        {/* <SocialIcons urls={urls} color="grey" /> */}
       </nav>
     </header>
       <div className="content">
