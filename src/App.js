@@ -6,6 +6,7 @@ import Home from './containers/Home'
 import { SocialIcons } from 'react-social-icons';
 import Routes from 'react-static-routes'
 import Video from './containers/Video'
+import './theme/assets/css/main.css'
 
 import './app.css'
 
