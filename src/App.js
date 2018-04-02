@@ -6,6 +6,8 @@ import Home from './containers/Home'
 import { SocialIcons } from 'react-social-icons';
 import Routes from 'react-static-routes'
 import Video from './containers/Video'
+import { slide as Menu } from 'react-burger-menu'
+
 import './theme/assets/css/main.css'
 
 // import './app.css'
@@ -18,12 +20,17 @@ const urls = [
 class App extends React.Component {
   constructor(props){
     super(props)
-
     this.state = {
-      showMenu: false
+      isHidden: true
     }
-
   }
+  toggleHidden(){
+    this.setState({
+      isHidden: !this.state.isHidden
+    })
+  }
+
+}
   render = () => {
     return (
   
@@ -34,8 +41,8 @@ class App extends React.Component {
      <nav id="nav">
       <ul>
 								<li className="special">
-									<a href="#menu" className="menuToggle"><span>Menu</span></a>
-									<div id="menu">
+									<a href="#menu" className="menuToggle" onClick={(event) => this.toggleHidden(event)}><span>Menu</span></a>
+                  <div id="menu">
                   
 										<ul>
 											<li><a><Link to="/">Home</Link></a></li>
@@ -58,7 +65,9 @@ class App extends React.Component {
 
   )
 }
+const Menu = () => (
 
-}
+)
+
 
 export default hot(module)(App)
